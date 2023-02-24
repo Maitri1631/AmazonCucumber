@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7992724500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "User should search product successfully",
+        "description": "",
+        "id": "search-product;user-should-search-product-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 680132500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136694500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on home page",
+            "match": {
+              "location": "SearchproductSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2454108300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on All menu",
+            "match": {
+              "location": "SearchproductSteps.iClickOnAllMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79705000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Electronics,computer \u0026 office",
+            "match": {
+              "location": "SearchproductSteps.iClickOnElectronicsComputerOffice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353361000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on All Electronics",
+            "match": {
+              "location": "SearchproductSteps.iClickOnAllElectronics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123540300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search Product \"Computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computer",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchproductSteps.iSearchProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1539739700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see product list",
+            "match": {
+              "location": "SearchproductSteps.iSeeProductList()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Product",
+    "description": "",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "SearchProduct.feature"
+  }
+]
